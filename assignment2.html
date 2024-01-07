@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment no 2</title>
+    <style>
+        header{
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-image: url(https://tse1.mm.bing.net/th?id=OIP.PN_g6qtvt0Pv5BUBZUr3uwHaEO&pid=Api&P=0&h=220);
+            height: 220px;
+            border: 6px dotted;
+            background-repeat: no-repeat;
+            background-position: left;
+            background-color: rgb(191, 231, 218);
+            border-radius: 11px;
+            box-shadow: 20px 20px 20px 20px rgb(113, 199, 170);
+            color:rgb(9, 9, 73);
+            background-attachment: fixed;
+        }
+      .para{
+        color: rgb(19, 19, 95);
+        font-size: 20px;
+        text-align: center;
+        line-height:30px ;
+        margin-bottom: 60px;
+        font-style:italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration-line: underline;
+
+      }
+      #form{
+      text-align: center;
+      font-size: 25px;
+      font-family:fantasy;
+      color:rgb(10, 10, 95) ;
+      text-decoration-line: underline;
+       background-color: rgb(208, 241, 231);
+       border: 6px dotted rgb(25, 25, 104);
+       padding-top: 30px;
+      }
+      .button{
+        width: 30%;
+        height: 10%;
+        margin: 20px;
+        padding: 20px;
+        background-color:rgb(133, 158, 150);
+        font-size: 20px;
+        color: rgb(48, 48, 134);
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <h1  style="font-size: 50px; text-align: center; text-shadow:3px 3px white;font-variant: small-caps;">Learn With Code</h1>
+    <p class="para">Coding is one of the most valuable skills you can build, and in this program <br> you'll learn about how to start learning.If you’re searching for “how to learn coding,”it might be <br> because you want to advance your career or develop other skills in the computer programming world.</p>
+ </header>
+ <hr style="width: 60%;">
+<h1 style="font-size: 45px;text-align: center;color: rgb(9, 9, 73);text-decoration-line: underline;">Registration Form</h1>
+<p class="para">Fill This Form With Correct Information</p>
+<form id="form">
+  <label for="name"> Full Name:</label>
+  <div>
+  <input type="text" placeholder="Enter your name" id="name">
+  </div>
+  <br>
+  <label for="f.name">Father Name:</label>
+  <div>
+  <input type="text" placeholder="Enter your F.name" id="f.name">
+  </div>
+  <br>
+
+ <label for="number">Contact no:</label>
+ <div>
+   <input type="number" placeholder="+92" id="number">
+ </div>
+ <br>
+<label for="address">Address:</label>
+  <div>
+  <input type="text" placeholder="Enter your Address" id="address">
+  </div>
+  <br>
+  <div>
+   Date Of Birth: <input type="date" name="dob" id="dob">
+  </div>
+  <br>
+ Gender:Male <input type="radio" name="gender" id="gender">Female <input type="radio" name="gender" id="gender">Other <input type="radio" name="gender" id="gender">
+ <br><br>
+ <label for="email">Email:</label>
+ <div>
+ <input type="email" name="email" id="email"placeholder="@gmail.com">
+ </div>
+ <br>
+ <div>
+  <label for="city">City:</label>
+  <select name="City:" id="City:">
+   <option value="karachi">karachi</option>
+   <option value="lahore">lahore</option>
+   <option value="islamabad">islamabad</option>
+   <option value="multan">multan</option>
+   <option value="quetta">quetta</option>
+  </select>
+   
+  </div>
+  <br>
+  <div>
+   Date Of Submit: <input type="date" name="date" id="dos">
+  </div>
+  <br>
+   <div>
+   <input type="reset" value="Reset" class="button">
+  </div>
+
+  <div>
+   <input type="submit" value="Submit" class="button">
+  </div>
+</form>
+
+</body>
+</html>
